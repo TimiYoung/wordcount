@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>编号统计结果</title>
+</head>
+<body>
+<h3>在这里显示结果{{ count }}</h3>
+<p>{{ text }}</p>
+<ul>
+    {% for k,v in worddict %}
+    <li>{{ k }}:{{ v }}</li>
+    {% endfor %}
+</ul>
+</body>
+</html>
